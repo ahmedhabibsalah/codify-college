@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggle}) => {
                     About
                 </SidebarLink>
                 <SidebarLink to='/start'onClick={toggle}>
-                    <Button>Get Start</Button>
+                    <Button>Get Started</Button>
                 </SidebarLink>
                 <SidebarLink style={{marginTop:"1rem"}} to='/signIn'onClick={toggle}>
                     <Button>Sign In</Button>

@@ -29,7 +29,7 @@ const Navbar = ({toggle}) => {
                     </NavMenu>
                     <ButtonWrapper>
                         <NavLinks to='/start'>
-                            <Button>Get Start</Button>
+                            <Button>Get Started</Button>
                         </NavLinks>
                         <NavLinks to='/signIn'>
                             <Button>Sign In</Button>
