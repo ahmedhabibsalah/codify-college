@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const Nav = styled.nav`
-background:transparent;
+background:${({scrollNav}) => (scrollNav ? "#edf2f4" : "transparent")} ;
 height: 80px;
 /* margin-top: -80px; */
 display:flex;
@@ -89,6 +89,8 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor:pointer;
+    white-space: nowrap;
+
 &:hover {
         color:	#2b2d42;
         transition : all 0.2s ease-in-out;
