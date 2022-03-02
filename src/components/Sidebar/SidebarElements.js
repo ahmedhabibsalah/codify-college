@@ -11,7 +11,6 @@ export const SidebarContainer = styled.aside`
  display: grid;
  align-items: center;
  top:0;
- font-family: "Amatic SC", cursive;
  left: 0;
  transition: 0.3s ease-in-out;
  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 
 
 export const Main = styled.main `
@@ -60,17 +59,3 @@ export const ButtonWrap = styled.div`
 	gap: 0.5em;
 `
 
-export const HeroLink = styled(Link)`
-/* color: #ff5773; */
-display:flex;
-font-size: 1.2em;
-align-items:center;
-text-decoration: none;
-padding: 0 1em;
-height: 100%;
-cursor:pointer;
-&:hover {
-        color:	#2b2d42;
-        transition : all 0.2s ease-in-out;
-    }
-`

@@ -1,3 +1,4 @@
+/* eslint-disable eqeqeq */
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import { Button, ServicesCard, ServicesContainer, ServicesHeading, ServicesIcon, ServicesParagraph, ServicesSecondHeader, ServicesWrapper, TextWrapper } from '../../globleStyles'
@@ -5,7 +6,6 @@ import { ButtonWrap } from '../Hero/HeroElements'
 import MobileDev from '../MobileDevelopment'
 import Shopify from '../ShopifyDevelopment'
 import WebSev from '../WebDevelopment'
-
 import services from './Data'
 
 const SoftwareServices = () => {
@@ -31,10 +31,15 @@ const SoftwareServices = () => {
         { ( selected == 0 ) ? <WebSev /> : null }
         { ( selected == 1 ) ? <MobileDev /> : null }
         { ( selected == 2 ) ? <Shopify /> : null }
+        
+
         <ButtonWrap style={{marginBottom:'70px'}}>
+          <Link to='/contact'>
             <Button> Book An Appointment</Button>
+          </Link>
         </ButtonWrap>
-          
+       
+
     </ServicesContainer>
   )
 }

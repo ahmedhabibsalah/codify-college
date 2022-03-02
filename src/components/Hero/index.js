@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Button } from '../../globleStyles'
-import { Bio, ButtonWrap, Container, HeroLink, Main, Section, SmallTitle, TextWrapper, Title } from './HeroElements'
+import { Bio, ButtonWrap, Container, Main, Section, SmallTitle, TextWrapper, Title } from './HeroElements'
 
 const Hero = () => {
   return (
@@ -14,11 +15,10 @@ const Hero = () => {
                     <Bio>Start your new Work with our weekly remotely Tech programs in full-stack developer and build web and mobile apps powered by JavaScript Start your new Work with our weekly remotely</Bio> 
                 </TextWrapper>
                 <ButtonWrap>
-                    {/* <HeroLink> */}
-                       <Button>Get in Touch</Button> 
-                    {/* </HeroLink>                   */}
+                        <Link to='/contact'>
+                            <Button>Get in Touch</Button>
+                        </Link>
                 </ButtonWrap>
-                
             </Section>
         </Container>
     </Main>

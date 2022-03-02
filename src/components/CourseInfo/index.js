@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, TopLine } from '../../globleStyles'
 import { ButtonWrap, FirstColumn, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, SecondColumn, Subtitle, TextWrapper} from './CourseElements'
 import course from '../../images/mern.png'
+import {Link as LinkScroll} from 'react-scroll';
 
 const CourseInfo = ({lightBg, id, topLine, lightText, darkText, headLine, descriptionLineOne, alt, imgStart,  }) => {
   return (
@@ -15,9 +16,11 @@ const CourseInfo = ({lightBg, id, topLine, lightText, darkText, headLine, descri
                                <Heading lightText={lightText}>{headLine}</Heading>
                                <Subtitle darkText={darkText}>{descriptionLineOne} </Subtitle>
                                <ButtonWrap  >
-                             <Button style={{fontSize:"1.5rem"}}>
-                                 Learn More
-                             </Button>
+                                   <LinkScroll  to='courseDetails' smooth={true} duration={500} spy={true} exact='true' offset={-80}>
+                                        <Button style={{fontSize:"1.5rem"}}>
+                                            Learn More
+                                        </Button>
+                                   </LinkScroll>
                           </ButtonWrap> 
                            </TextWrapper>
                        </FirstColumn>

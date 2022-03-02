@@ -20,7 +20,7 @@ import { TopLine } from '../../globleStyles';
 const CourseDetails = () => {
     const [selected, setSelected] = useState(false);
   return (
-    <Section >
+    <Section id='courseDetails'>
     <Content>
         <TopLine>Comprehensive Curriculum</TopLine>
         <Heading>

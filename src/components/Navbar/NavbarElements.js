@@ -108,3 +108,24 @@ export const ButtonWrapper = styled.div `
       display:none
   }
 `
+
+export const Item = styled(Link)`
+  padding: 5px;
+  height: 28px;
+  color: #ff5773;
+  padding-right:30px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration:none;
+  &:hover {
+        color:	#2b2d42;
+        transition : all 0.2s ease-in-out;
+    }
+  `
+
+export const ItemMenu = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: #ffffff;
+`
