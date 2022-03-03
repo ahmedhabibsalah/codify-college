@@ -19,17 +19,17 @@ const Footer = () => {
                     <FooterLinkTitle>
                       Courses
                     </FooterLinkTitle>
-                    <FooterLink href="" target="_blank" aria-label="">Foundation Course</FooterLink>
-                    <FooterLink href="" target="_blank" aria-label="">Front-End Full Course</FooterLink>
-                    <FooterLink href="" target="_blank" aria-label="">Mern Full-Stack Developer</FooterLink>
+                    <FooterLink to='/'>Foundation Course</FooterLink>
+                    <FooterLink to='/'>Front-End Full Course</FooterLink>
+                    <FooterLink to='/'>Mern Full-Stack Developer</FooterLink>
                 </FooterLinkItems>
                 <FooterLinkItems>
                     <FooterLinkTitle>
                       Our Services
                     </FooterLinkTitle>
-                    <FooterElement>Mobile Development</FooterElement>
-                    <FooterElement>Web Development</FooterElement>
-                    <FooterElement>Shopify Development</FooterElement>
+                    <FooterLink to='/services'>Mobile Development</FooterLink>
+                    <FooterLink to='/services'>Web Development</FooterLink>
+                    <FooterLink to='/services'>Shopify Development</FooterLink>
                 </FooterLinkItems>
             </FooterLinksWrapper>
 
@@ -56,13 +56,13 @@ const Footer = () => {
                 <WebsiteRights>Codify College AB © {new Date().getFullYear()} All right reserved. </WebsiteRights>
             
             <SocialIcons>
-                <SocialIconLink href="" target="_blank" aria-label="Facebook">
+                <SocialIconLink href="https://www.facebook.com/CfCollegezz/" target="_blank" aria-label="Facebook">
                     <FaFacebook />
                 </SocialIconLink>
-                <SocialIconLink href="" target="_blank" aria-label="Linkedin">
+                <SocialIconLink href="https://www.linkedin.com/company/cf-college/" target="_blank" aria-label="Linkedin">
                     <FaLinkedin />
                 </SocialIconLink>
-                <SocialIconLink href="" target="_blank" aria-label="Linkedin">
+                <SocialIconLink href="https://twitter.com/codifycollege" target="_blank" aria-label="Linkedin">
                     <FaTwitter />
                 </SocialIconLink>
             </SocialIcons>

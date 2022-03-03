@@ -51,11 +51,12 @@ font-size: 14px;
 margin-bottom : 16px;
 `
 
-export const FooterLink = styled.a`
+export const FooterLink = styled(Link)`
 color: #2b2d42;
 text-decoration: none;
 margin-bottom: 0.5rem;
 font-size: 14px;
+cursor:pointer;
 &:hover {
     color: #ff5773;
     transition: 0.3s ease-out;
