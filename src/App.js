@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import About from './components/About';
+import Career from './components/Careers';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import SignUp from './components/Register';
@@ -16,6 +18,8 @@ function App() {
           <Route element={<Home />} path="/" exact />
           <Route element={<Services />} path="/services"  />
           <Route element={<Contact />} path="/contact"  />
+          <Route element={<About />} path="/about"  />
+          <Route element={<Career />} path="/careers"  />
           <Route element={<SignIn />} path="/signIn" />
           <Route element={<SignUp />} path="/signUp" />
         </Routes>

@@ -3,8 +3,6 @@ import { FirstColumn, Heading, InfoContainer, InfoRow, InfoWrapper, SecondColumn
 import logo from '../../images/codify-logo.png'
 import { Button } from '../../globleStyles'
 import { ButtonWrap } from '../Hero/HeroElements'
-import Reviews from '../Reviews'
-import Footer from '../Footer'
 
 const Tuition = () => {
   return (
@@ -44,7 +42,6 @@ const Tuition = () => {
                             </ServicesContainer>
                         </SecondColumn>
                    </InfoRow>
-                   {/* <Reviews /> */}
                 </InfoWrapper>
             </InfoContainer>
   )
