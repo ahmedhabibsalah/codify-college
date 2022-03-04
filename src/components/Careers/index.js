@@ -18,7 +18,7 @@ const Career = () => {
                     </Bio> 
                 </TextWrapper>
                 <ButtonWrap>
-                        <a target="_blank" href='https://ahmedhabibsalah.aidaform.com/expert-account-template-basic-job-application-form'>
+                        <a target="_blank" href='https://ahmedhabibsalah.aidaform.com/expert-account-template-basic-job-application-form' rel="noreferrer" >
                             <Button>Apply</Button>
                         </a>
                 </ButtonWrap>
