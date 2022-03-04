@@ -33,7 +33,7 @@ const CourseDetails = () => {
     <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={2}
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}

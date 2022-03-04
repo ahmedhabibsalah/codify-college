@@ -4,6 +4,7 @@ export const InfoContainer = styled.div `
 color: #fff;
 @media screen and (max-width: 768px) {
     padding: 108px 0;
+    margin-left:60px;
 }
 `
 export const InfoWrapper = styled.div`
