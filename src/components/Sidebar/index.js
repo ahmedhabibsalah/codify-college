@@ -19,8 +19,8 @@ const Sidebar = ({ isOpen, toggle}) => {
                 <SidebarLink to="/about" onClick={toggle}>
                     About
                 </SidebarLink>
-                <SidebarLink to='/start'onClick={toggle}>
-                    <Button>Get Started</Button>
+                <SidebarLink to='/contact'onClick={toggle}>
+                    <Button>Contact Us</Button>
                 </SidebarLink>
                 <SidebarLink style={{marginTop:"1rem"}} to='/signIn'onClick={toggle}>
                     <Button>Sign In</Button>

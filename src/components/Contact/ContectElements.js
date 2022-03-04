@@ -51,6 +51,7 @@ align-self:center;
 @media screen and (max-width: 480px) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    margin-left:60px;
 }
 `
 export const FormGroup = styled.div`
