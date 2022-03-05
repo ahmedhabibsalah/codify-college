@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import About from './components/About';
-import Career from './components/Careers';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import SignUp from './components/Register';
-import SignIn from './components/SignIn';
+import AboutPage from './pages/About';
 import Bar from './pages/Bar';
+import CareeresPage from './pages/CareeresPage';
+import ContactPage from './pages/Contact';
 import Home from './pages/Home';
+import Register from './pages/Register';
 import Services from './pages/Services';
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
         <Routes>          
           <Route element={<Home />} path="/" exact />
           <Route element={<Services />} path="/services"  />
-          <Route element={<Contact />} path="/contact"  />
-          <Route element={<About />} path="/about"  />
-          <Route element={<Career />} path="/careers"  />
-          <Route element={<SignIn />} path="/signIn" />
+          <Route element={<ContactPage />} path="/contact"  />
+          <Route element={<AboutPage />} path="/about"  />
+          <Route element={<CareeresPage />} path="/careers"  />
+          <Route element={<Register />} path="/signIn" />
           <Route element={<SignUp />} path="/signUp" />
         </Routes>
         <Footer />
