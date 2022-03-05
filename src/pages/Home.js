@@ -12,16 +12,13 @@ import Tuition from '../components/Tuition'
 const Home = () => {
   return (
     <>
-    <Main>
         <Hero />
         <CourseInfo  {...homeObjOne} />
         <Offers />
         <CourseDetails />
         <Tuition />
         <Reviews />
-        <FAQ  />
-    </Main>
-        
+        <FAQ  />        
     </>
   )
 }
