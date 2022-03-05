@@ -5,7 +5,6 @@ import CourseInfo from '../components/CourseInfo'
 import { homeObjOne } from '../components/CourseInfo/Data'
 import FAQ from '../components/FAQ'
 import Hero from '../components/Hero'
-import { Main } from '../components/Hero/HeroElements'
 import Reviews from '../components/Reviews'
 import Tuition from '../components/Tuition'
 
